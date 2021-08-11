@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C-Plus-Plus_heterogeneous",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer", "Pointer\Pointer.vcxproj", "{654D8A6A-A471-4FB1-881C-44718E3C4BFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Passing_strings_to_a_function", "Passing_strings_to_a_function\Passing_strings_to_a_function.vcxproj", "{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{654D8A6A-A471-4FB1-881C-44718E3C4BFD}.Release|x64.Build.0 = Release|x64
 		{654D8A6A-A471-4FB1-881C-44718E3C4BFD}.Release|x86.ActiveCfg = Release|Win32
 		{654D8A6A-A471-4FB1-881C-44718E3C4BFD}.Release|x86.Build.0 = Release|Win32
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Debug|x64.ActiveCfg = Debug|x64
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Debug|x64.Build.0 = Debug|x64
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Debug|x86.Build.0 = Debug|Win32
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Release|x64.ActiveCfg = Release|x64
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Release|x64.Build.0 = Release|x64
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Release|x86.ActiveCfg = Release|Win32
+		{8DD5F282-CCE7-4D3C-8E60-200186E3D3AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
