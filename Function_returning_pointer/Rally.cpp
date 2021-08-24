@@ -14,7 +14,7 @@ int main() {
 char* get_substr(char* sub, char* str) {
 
 	int t; 
-	char* p, * p, * start;
+	char* p, * p2, * start;
 
 	for ( t = 00; str[t]; t++)
 	{
