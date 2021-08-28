@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Progress Check 1 P185", "Pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Function_returning_pointer", "Function_returning_pointer\Function_returning_pointer.vcxproj", "{56B06FAD-28C6-47B7-AFE3-57933564846E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Function_returning_pointer2", "Function_returning_pointer2\Function_returning_pointer2.vcxproj", "{BBE880E7-B900-491D-B5C2-83EF83DC290B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{56B06FAD-28C6-47B7-AFE3-57933564846E}.Release|x64.Build.0 = Release|x64
 		{56B06FAD-28C6-47B7-AFE3-57933564846E}.Release|x86.ActiveCfg = Release|Win32
 		{56B06FAD-28C6-47B7-AFE3-57933564846E}.Release|x86.Build.0 = Release|Win32
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Debug|x64.Build.0 = Debug|x64
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Debug|x86.Build.0 = Debug|Win32
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Release|x64.ActiveCfg = Release|x64
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Release|x64.Build.0 = Release|x64
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Release|x86.ActiveCfg = Release|Win32
+		{BBE880E7-B900-491D-B5C2-83EF83DC290B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
