@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{748175cc-e2e8-43f5-8108-e8b1a01af57d}</ProjectGuid>
-    <RootNamespace>CPlusPlusheterogeneous</RootNamespace>
+    <ProjectGuid>{72b6e554-5e1f-47ec-9b5c-85acd7759d5f}</ProjectGuid>
+    <RootNamespace>Definingandinitializingstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bulk.cpp" />
+    <ClCompile Include="Reassuring.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
