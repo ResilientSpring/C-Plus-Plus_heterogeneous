@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Command-line argument funct
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursive", "Recursive\Recursive.vcxproj", "{B5B97667-1ADB-4A37-83CB-350C0550AB04}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursive2", "Recursive2\Recursive2.vcxproj", "{58C84AF8-C1BF-4B37-B251-6B7488C1592A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -237,6 +239,18 @@ Global
 		{B5B97667-1ADB-4A37-83CB-350C0550AB04}.Release|x64.Build.0 = Release|x64
 		{B5B97667-1ADB-4A37-83CB-350C0550AB04}.Release|x86.ActiveCfg = Release|Win32
 		{B5B97667-1ADB-4A37-83CB-350C0550AB04}.Release|x86.Build.0 = Release|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|Win32.Build.0 = Debug|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|x64.ActiveCfg = Debug|x64
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|x64.Build.0 = Debug|x64
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|x86.ActiveCfg = Debug|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Debug|x86.Build.0 = Debug|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|Win32.ActiveCfg = Release|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|Win32.Build.0 = Release|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|x64.ActiveCfg = Release|x64
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|x64.Build.0 = Release|x64
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|x86.ActiveCfg = Release|Win32
+		{58C84AF8-C1BF-4B37-B251-6B7488C1592A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
