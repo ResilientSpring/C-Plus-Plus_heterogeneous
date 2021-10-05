@@ -9,7 +9,9 @@ int main() {
 
 	int sum = x + y;
 
-	cout << x << "+" << y << "=" << sum;
+	cout << x << " + " << y << " = " << sum << "\n";
+
+	cout << "x + y = z\n";
 
 	return 0;
 }
