@@ -8,7 +8,14 @@ void qs(char* array_name, int left, int right);
 // The version we develop sorts a character array, but the logic can be adapted to sort any type of object.
 int main() {
 
+	char str[] = "jfmckldoelazlkper";
+	cout << "Original order: " << str << "\n";
 
+	quick_sort(str, strlen(str));
+
+	cout << "Sorted order: " << str << "\n";
+
+	return 0;
 
 }
 
