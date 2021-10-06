@@ -24,3 +24,5 @@ int main() {
 	return 0;
 
 }
+
+// Reference: https://web.archive.org/web/20210909032723/https://www.programiz.com/cpp-programming/strings
