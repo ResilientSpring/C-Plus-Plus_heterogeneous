@@ -12,7 +12,7 @@ int main() {
 	string str = "jfmckldoelazlkper";
 	cout << "Original order: " << str << "\n";
 
-	quick_sort(str, str.length());
+	quick_sort(str, str.length()); // [1]
 
 	cout << "Sorted order: " << str << "\n";
 
@@ -23,7 +23,6 @@ int main() {
 // Provide a convenient interface for the user and sets up a call to the actual sorting function called qs().
 void quick_sort(string array_name, int len) {
 
-	// items points to the array to be sorted.[1]
 	qs(array_name, 0, len - 1);
 }
 
@@ -60,7 +59,7 @@ void qs(string array_name, int left, int right) {
 
 /*
 * References:
-* 1. array name indicates the address of first element and arrays are always passed as pointers.
-* https://www.geeksforgeeks.org/arrays-in-c-cpp/
+* 1. 
+* https://www.w3schools.com/cpp/cpp_strings_length.asp
 
 */
