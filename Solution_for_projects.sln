@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String as character array2"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quick_sort_algorithm", "Quick_sort_algorithm\Quick_sort_algorithm.vcxproj", "{1FBFDA6F-CE2C-4BE1-A9CB-5BC5C51C97AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quick_sort", "Quick_sort\Quick_sort.vcxproj", "{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{1FBFDA6F-CE2C-4BE1-A9CB-5BC5C51C97AB}.Release|x64.Build.0 = Release|x64
 		{1FBFDA6F-CE2C-4BE1-A9CB-5BC5C51C97AB}.Release|x86.ActiveCfg = Release|Win32
 		{1FBFDA6F-CE2C-4BE1-A9CB-5BC5C51C97AB}.Release|x86.Build.0 = Release|Win32
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Debug|x64.ActiveCfg = Debug|x64
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Debug|x64.Build.0 = Debug|x64
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Debug|x86.Build.0 = Debug|Win32
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Release|x64.ActiveCfg = Release|x64
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Release|x64.Build.0 = Release|x64
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Release|x86.ActiveCfg = Release|Win32
+		{DF08C05E-90AF-49F2-BFEA-E4B09E8349F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
