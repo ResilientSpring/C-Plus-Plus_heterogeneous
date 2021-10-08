@@ -22,6 +22,8 @@ int main() {
 // Provide a convenient interface for the user and sets up a call to the actual sorting function called qs().
 void quick_sort(char* array_name, int len) {
 
+	cout << "The length of string is " << len << "\n";
+
 	// items points to the array to be sorted.[1]
 	qs(array_name, 0, len - 1);
 }
