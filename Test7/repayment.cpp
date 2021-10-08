@@ -39,27 +39,27 @@ void qs(char* array_name, int left, int right) {
 	cout << "char x : " << x << "\n";
 
 	do {
-		while ((array_name[i] < x) && (i < j))
-			i++;
-		while ((x < array_name[j]) && (j > i))
-			j--;
+		while ((array_name[left] < x) && (left < right))
+			left++;
+		while ((x < array_name[right]) && (right > left))
+			right--;
 
-		if (i <= j) {
-			y = array_name[i];
-			array_name[i] = array_name[j];
-			array_name[j] = y;
+		if (left <= right) {
+			y = array_name[left];
+			array_name[left] = array_name[right];
+			array_name[right] = y;
 
-			i++;
-			j--;
+			left++;
+			right--;
 		}
 
-	} while (i <= j);
+	} while (left <= right);
 
-	if (left < j)
-		qs(array_name, left, j);
+	if (left < right)
+		qs(array_name, left, right);
 
-	if (i < right)
-		qs(array_name, i, right);
+	if (left < right)
+		qs(array_name, left, right);
 }
 
 /*
