@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{279bb324-df82-472f-8abe-c12701fa32c5}</ProjectGuid>
-    <RootNamespace>CStrings</RootNamespace>
+    <ProjectGuid>{3f59110a-a519-449e-9117-56f303170323}</ProjectGuid>
+    <RootNamespace>Test10</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Be_privy_to.cpp" />
+    <ClCompile Include="Coward.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
