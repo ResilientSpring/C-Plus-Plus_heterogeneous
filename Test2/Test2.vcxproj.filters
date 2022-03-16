@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Be_privy_to.cpp">
+    <ClCompile Include="Campaigner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

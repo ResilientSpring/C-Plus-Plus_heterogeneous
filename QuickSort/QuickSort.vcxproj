@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{279bb324-df82-472f-8abe-c12701fa32c5}</ProjectGuid>
-    <RootNamespace>CStrings</RootNamespace>
+    <ProjectGuid>{a567391f-2461-484f-bbc2-73201c199d9a}</ProjectGuid>
+    <RootNamespace>QuickSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Be_privy_to.cpp" />
+    <ClCompile Include="QSDemo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

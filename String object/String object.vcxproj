@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{279bb324-df82-472f-8abe-c12701fa32c5}</ProjectGuid>
-    <RootNamespace>CStrings</RootNamespace>
+    <ProjectGuid>{b1066b01-dde1-484e-9d20-5d1bb0ba1e4a}</ProjectGuid>
+    <RootNamespace>Stringobject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Be_privy_to.cpp" />
+    <ClCompile Include="Stringent.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
