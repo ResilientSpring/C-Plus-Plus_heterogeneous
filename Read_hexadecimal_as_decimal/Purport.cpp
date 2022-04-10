@@ -29,7 +29,7 @@ int main()
     {
         printf("%d ", ch);
 
-        if (!(++i % 16)) 
+        if (!(++i % 10)) 
             putc('\n', stdout);
     }
     fclose(fp);
