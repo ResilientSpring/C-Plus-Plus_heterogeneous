@@ -8,7 +8,7 @@ int main() {
 	int num;
 	FILE* inputFile; // Read as "file pointer in"
 
-	inputFile = fopen("C:\\Users\\ted10014\\SkyDrive\\VisualStudio\\testcase\\trace.txt", "r");  // Open the file for "reading".
+	inputFile = fopen("trace.txt", "r");  // Open the file for "reading".
 
 	fscanf(inputFile, "%d", &num);
 
