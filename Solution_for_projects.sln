@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Module5 Mastery Check 2", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pause", "Pause\Pause.vcxproj", "{2FC62B1A-1989-4629-9C48-130F2FD1EF3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading_data_from_a_file", "Reading_data_from_a_file\Reading_data_from_a_file.vcxproj", "{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -471,6 +473,14 @@ Global
 		{2FC62B1A-1989-4629-9C48-130F2FD1EF3B}.Release|x64.Build.0 = Release|x64
 		{2FC62B1A-1989-4629-9C48-130F2FD1EF3B}.Release|x86.ActiveCfg = Release|Win32
 		{2FC62B1A-1989-4629-9C48-130F2FD1EF3B}.Release|x86.Build.0 = Release|Win32
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Debug|x64.ActiveCfg = Debug|x64
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Debug|x64.Build.0 = Debug|x64
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Debug|x86.Build.0 = Debug|Win32
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Release|x64.ActiveCfg = Release|x64
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Release|x64.Build.0 = Release|x64
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Release|x86.ActiveCfg = Release|Win32
+		{AD5B2B04-BB71-4FC0-9830-5D94260FBB96}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
