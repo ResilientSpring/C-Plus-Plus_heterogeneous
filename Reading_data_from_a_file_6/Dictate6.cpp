@@ -12,6 +12,8 @@ int main() {
 
 	fscanf(inputFile, "%d", &num);
 
+	printf("%d", num);
+
 	fclose(inputFile);
 
 	return 0;
