@@ -4,5 +4,7 @@
 using namespace std;
 
 int main() {
-	FILE *inputFile; // Read as "file pointer in"
+	FILE* inputFile; // Read as "file pointer in"
+
+	inputFile = fopen("trace.txt", "r");
 }
