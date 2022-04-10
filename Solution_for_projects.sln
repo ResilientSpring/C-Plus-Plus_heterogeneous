@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kao_TaskIX_March18", "Kao_T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read_hexadecimal_as_decimal", "Read_hexadecimal_as_decimal\Read_hexadecimal_as_decimal.vcxproj", "{77A71C68-F06C-4569-BDEF-6B22C5CB28AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Format_flags", "Format_flags\Format_flags.vcxproj", "{7BCBB276-97DD-463D-B496-2534D5A55105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -331,6 +333,14 @@ Global
 		{77A71C68-F06C-4569-BDEF-6B22C5CB28AD}.Release|x64.Build.0 = Release|x64
 		{77A71C68-F06C-4569-BDEF-6B22C5CB28AD}.Release|x86.ActiveCfg = Release|Win32
 		{77A71C68-F06C-4569-BDEF-6B22C5CB28AD}.Release|x86.Build.0 = Release|Win32
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Debug|x64.ActiveCfg = Debug|x64
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Debug|x64.Build.0 = Debug|x64
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Debug|x86.Build.0 = Debug|Win32
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Release|x64.ActiveCfg = Release|x64
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Release|x64.Build.0 = Release|x64
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Release|x86.ActiveCfg = Release|Win32
+		{7BCBB276-97DD-463D-B496-2534D5A55105}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
