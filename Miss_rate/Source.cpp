@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <stdio.h>
 using namespace std;
 
 int main() {
@@ -12,6 +13,8 @@ int main() {
 	int num_of_cache_block;
 	int set;
 	int num_of_set;
+
+	ofstream out;
 
 	ifstream in("trace.txt");  // Open a file for text input.
 
@@ -43,6 +46,23 @@ int main() {
 		cout << d[i] << "\n";
 	}
 
+	// Save what the program read.
+	out.open("Hex_to_dec.txt");
+
+	if (!out)
+	{
+		cout << "Cannot create or open file.";
+
+		return 1;
+	}
+
+	// Output to the file.
+	for (int i = 0; i < 5002; i++)
+	{
+		out << d[i] << "\n";
+	}
+
+	// Hint 2
 	cout << "What is the block size of cache? (Byte)" << "\n";
 
 	cin >> block_size;
