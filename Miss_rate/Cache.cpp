@@ -43,7 +43,7 @@ int main() {
 		cout << d[i] << "\n";
 	}
 
-	cout << "What is the block size of cache? (Byte)";
+	cout << "What is the block size of cache? (Byte)" << "\n";
 
 	cin >> block_size;
 
@@ -95,14 +95,14 @@ int main() {
 		cout << location[i] << "\n";
 	}
 
-	cout << "What is the size of cache? (kilo-byte)";
+	cout << "What is the size of cache? (kilo-byte)" << "\n";
 	cin >> cache_size_kilobyte;
 
 	cache_size_byte = cache_size_kilobyte * 1024;
 	num_of_cache_block = cache_size_byte / block_size;
 
 
-	cout << "Specify n of n-set associative:";
+	cout << "Specify n of n-set associative:" << "\n";
 	cin >> set;
 
 	num_of_set = num_of_cache_block / set;
