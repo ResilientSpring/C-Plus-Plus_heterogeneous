@@ -23,11 +23,6 @@ int main() {
 		in >> hex >> d[i];
 	}
 
-	cout << dec << a << "\n";
-	cout << dec << b << "\n";
-	cout << dec << c << "\n";
-
-
 	in.close();
 
 	cout << a << "\n";
