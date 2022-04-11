@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	int a, b;
+	int a, b, c;
 
 	ifstream in("trace.txt");  // Open a file for text input.
 
@@ -17,12 +17,9 @@ int main() {
 	in >> hex >> a;
 	in >> dec >> b;
 
-	cout << dec << a << "\n" <<  b;
+	cout << dec << a << "\n" << b;
 
 	in.close();
 
 	return 0;
 }
-
-// Reference: 
-// 1. https://stackoverflow.com/a/13196642
