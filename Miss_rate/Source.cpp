@@ -102,7 +102,7 @@ int main() {
 	cache_size_byte = cache_size_kilobyte * 1024;
 	num_of_cache_block = cache_size_byte / block_size;
 
-
+	// Hint 3
 	cout << "Specify n of n-set associative:" << "\n";
 	cin >> set;
 
