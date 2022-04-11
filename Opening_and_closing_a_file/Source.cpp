@@ -7,8 +7,7 @@ int main() {
 
 	both.open("trace.txt", ios::in | ios::dec);
 
-	if (!both)
+	if (!both.is_open())
 		cout << "Cannot open file. \n";
-
 
 }
