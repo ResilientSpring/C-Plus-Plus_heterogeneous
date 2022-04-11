@@ -24,6 +24,7 @@
     <ProjectGuid>{4d8bd3d5-d2bd-4ffd-81be-d170fbcff8b8}</ProjectGuid>
     <RootNamespace>Readingtracetextfile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Read_trace_text_file_4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
