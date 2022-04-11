@@ -13,6 +13,7 @@ int main() {
 	int num_of_cache_block;
 	int set;
 	int num_of_set;
+	int corresponding_set[5002];
 
 	ofstream out;
 
@@ -149,6 +150,19 @@ int main() {
 	cin >> set;
 
 	num_of_set = num_of_cache_block / set;
+
+	// Calculate which set does the memory block of interest correspond to? (Hint 3)
+
+	for (int i = 0; i < 5002; i++)
+	{
+		corresponding_set[i] = location[i] % num_of_set;
+	}
+
+	// Show the set to which the memory block of interest correspond. (Hint 3)
+	for (int i = 0; i < 5002; i++)
+	{
+		cout << corresponding_set[i] << "\n";
+	}
 
 	return 0;
 }
