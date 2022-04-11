@@ -7,7 +7,9 @@ using namespace std;
 int main() {
 	float a, b;
 
-	ifstream in("trace.txt", ios::dec);
+//	ifstream in("trace.txt", ios::dec);
+
+	ifstream in("trace.txt");
 
 	if (!in) {
 		cout << "Cannot open file.\n";
