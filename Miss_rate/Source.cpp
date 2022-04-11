@@ -164,5 +164,7 @@ int main() {
 		cout << corresponding_set[i] << "\n";
 	}
 
+	out.open("Which_set_does_memory_block_belong_to.txt");
+
 	return 0;
 }
