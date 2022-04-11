@@ -95,6 +95,7 @@ int main() {
 		cout << location[i] << "\n";
 	}
 
+	// Hint 3
 	cout << "What is the size of cache? (kilo-byte)" << "\n";
 	cin >> cache_size_kilobyte;
 
