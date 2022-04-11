@@ -43,7 +43,7 @@ int main() {
 		cout << d[i] << "\n";
 	}
 
-	cout << "What is the block size of cache? (Byte)";
+	cout << "What is the block size of cache? (Byte)" << "\n";
 
 	cin >> block_size;
 
@@ -54,7 +54,7 @@ int main() {
 		{
 			location[i] = d[i] / 8;
 		}
-		
+
 		break;
 
 	case 16:
@@ -95,23 +95,15 @@ int main() {
 		cout << location[i] << "\n";
 	}
 
-	cout << "What is the size of cache?";
+	cout << "What is the size of cache? (kilo-byte)" << "\n";
 	cin >> cache_size_kilobyte;
 
-	switch (cache_size_kilobyte)
-	{
-	case 1:
-		cache_size_byte = cache_size_kilobyte * 1024;
-		num_of_cache_block = cache_size_byte / block_size;
-
-	default:
-		break;
-	}
-
-	cout << "Specify n of n-set associative:";
-	cin >> set;
-
+	cache_size_byte = cache_size_kilobyte * 1024;
 	num_of_cache_block = cache_size_byte / block_size;
+
+
+	cout << "Specify n of n-set associative:" << "\n";
+	cin >> set;
 
 	num_of_set = num_of_cache_block / set;
 
