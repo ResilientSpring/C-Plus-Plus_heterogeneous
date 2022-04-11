@@ -17,6 +17,8 @@ int main() {
 		return 1;
 	}
 
+//	in.setf(ios::hex);
+
 	in >> a;
 	in >> b;
 
