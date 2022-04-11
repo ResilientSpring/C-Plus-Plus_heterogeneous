@@ -164,7 +164,24 @@ int main() {
 		cout << corresponding_set[i] << "\n";
 	}
 
+	// Save each memory block's corresponding set.
 	out.open("Which_set_does_memory_block_belong_to.txt");
+
+	if (!out)
+	{
+		cout << "Cannot create or open file.";
+
+		return 1;
+	}
+
+	// Output to the file.
+	for (int i = 0; i < 5002; i++)
+	{
+		out << corresponding_set[i] << "\n";
+	}
+
+	// Close Which_set_does_memory_block_belong_to.txt
+	out.close();
 
 	return 0;
 }
