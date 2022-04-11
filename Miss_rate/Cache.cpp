@@ -29,5 +29,10 @@ int main() {
 	cout << b << "\n";
 	cout << c << "\n";
 
+	for (int i = 0; i < 100; i++)
+	{
+		cout << d[i] << "\n";
+	}
+
 	return 0;
 }
