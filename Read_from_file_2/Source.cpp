@@ -10,7 +10,7 @@ int main() {
 	float f;
 	char str[80];
 
-	ifstream in("test.txt"); // open a file for test input.
+	ifstream in("test.txt"); // open a file for text input.
 	
 	if (!in) {
 		cout << "Cannot open file.";
