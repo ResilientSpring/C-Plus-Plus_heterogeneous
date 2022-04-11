@@ -62,6 +62,9 @@ int main() {
 		out << d[i] << "\n";
 	}
 
+	// Close Hex_to_dec.txt
+	out.close();
+
 	// Hint 2
 	cout << "What is the block size of cache? (Byte)" << "\n";
 
@@ -114,6 +117,25 @@ int main() {
 	{
 		cout << location[i] << "\n";
 	}
+
+	// Write down memory address' position in memory blocks.
+	out.open("Which_block_is_the_memory_address_in.txt");
+
+	if (!out)
+	{
+		cout << "Cannot create or open file.";
+
+		return 1;
+	}
+
+	// Output to the file.
+	for (int i = 0; i < 5002; i++)
+	{
+		out << location[i] << "\n";
+	}
+
+	// Close Which_block_is_the_memory_address_in.txt
+	out.close();
 
 	// Hint 3
 	cout << "What is the size of cache? (kilo-byte)" << "\n";
