@@ -7,6 +7,11 @@ int main() {
 	int a, b, c, d[5002];
 	int block_size;
 	int location[5002];
+	int cache_size_kilobyte;
+	int cache_size_byte;
+	int num_of_cache_block;
+	int set;
+	int num_of_set;
 
 	ifstream in("trace.txt");  // Open a file for text input.
 
@@ -89,6 +94,26 @@ int main() {
 	{
 		cout << location[i] << "\n";
 	}
+
+	cout << "What is the size of cache?";
+	cin >> cache_size_kilobyte;
+
+	switch (cache_size_kilobyte)
+	{
+	case 1:
+		cache_size_byte = cache_size_kilobyte * 1024;
+		num_of_cache_block = cache_size_byte / block_size;
+
+	default:
+		break;
+	}
+
+	cout << "Specify n of n-set associative:";
+	cin >> set;
+
+	num_of_cache_block = cache_size_byte / block_size;
+
+	num_of_set = num_of_cache_block / set;
 
 	return 0;
 }
