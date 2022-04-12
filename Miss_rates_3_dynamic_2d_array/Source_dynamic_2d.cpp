@@ -187,9 +187,8 @@ int main() {
 
 	num_of_cache_block_in_a_set = num_of_cache_block / num_of_set;
 
-	int* inside_cache = new int[num_of_cache_block_in_a_set][4];
+	auto inside_cache = new int[num_of_cache_block_in_a_set][4];
 
-	delete[] inside_cache;
 
 	return 0;
 }
