@@ -14,6 +14,7 @@ int main() {
 	int set;
 	int num_of_set;
 	int corresponding_set[5002];
+	int num_of_cache_block_in_a_set;
 
 	ofstream out;
 
@@ -182,6 +183,10 @@ int main() {
 
 	// Close Which_set_does_memory_block_belong_to.txt
 	out.close();
+
+	num_of_cache_block_in_a_set = num_of_cache_block / num_of_set;
+
+//	int inside_cache[num_of_cache_block_in_a_set][4];
 
 	return 0;
 }
