@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Miss_rate_3", "Miss_rate_3\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Miss_rate_4", "Miss_rate_4\Miss_rate_4.vcxproj", "{01BAD258-9BFC-4A3D-B938-074B6B32EE23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cache_mapping_technique", "Cache_mapping_technique\Cache_mapping_technique.vcxproj", "{EDF08157-70A4-4A01-913A-BCC2A854E137}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -551,6 +553,14 @@ Global
 		{01BAD258-9BFC-4A3D-B938-074B6B32EE23}.Release|x64.Build.0 = Release|x64
 		{01BAD258-9BFC-4A3D-B938-074B6B32EE23}.Release|x86.ActiveCfg = Release|Win32
 		{01BAD258-9BFC-4A3D-B938-074B6B32EE23}.Release|x86.Build.0 = Release|Win32
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Debug|x64.ActiveCfg = Debug|x64
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Debug|x64.Build.0 = Debug|x64
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Debug|x86.Build.0 = Debug|Win32
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Release|x64.ActiveCfg = Release|x64
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Release|x64.Build.0 = Release|x64
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Release|x86.ActiveCfg = Release|Win32
+		{EDF08157-70A4-4A01-913A-BCC2A854E137}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
