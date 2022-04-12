@@ -103,7 +103,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read_from_trace_text_file_7
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Miss_rate", "Miss_rate\Miss_rate.vcxproj", "{D3190730-6B6E-418E-A0A5-121CCC5B87EA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading_trace_text_file", "Reading_trace_text_file\Reading_trace_text_file.vcxproj", "{4D8BD3D5-D2BD-4FFD-81BE-D170FBCFF8B8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Read_trace_text_file_4", "Reading_trace_text_file\Reading_trace_text_file.vcxproj", "{4D8BD3D5-D2BD-4FFD-81BE-D170FBCFF8B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Miss_rate_2", "Miss_rate_2\Miss_rate_2.vcxproj", "{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -521,6 +523,14 @@ Global
 		{4D8BD3D5-D2BD-4FFD-81BE-D170FBCFF8B8}.Release|x64.Build.0 = Release|x64
 		{4D8BD3D5-D2BD-4FFD-81BE-D170FBCFF8B8}.Release|x86.ActiveCfg = Release|Win32
 		{4D8BD3D5-D2BD-4FFD-81BE-D170FBCFF8B8}.Release|x86.Build.0 = Release|Win32
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Debug|x64.ActiveCfg = Debug|x64
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Debug|x64.Build.0 = Debug|x64
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Debug|x86.Build.0 = Debug|Win32
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Release|x64.ActiveCfg = Release|x64
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Release|x64.Build.0 = Release|x64
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Release|x86.ActiveCfg = Release|Win32
+		{5E239E51-803B-4BAB-9EC0-DCEDC632C65D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
