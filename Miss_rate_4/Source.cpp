@@ -182,7 +182,7 @@ int main() {
 	// Hint 4
 	num_of_cache_block_in_a_set = num_of_cache_block / num_of_set;
 
-	auto inside_cache = new int[num_of_cache_block_in_a_set][4];
+	auto inside_cache = new int[num_of_cache_block_in_a_set][4]();
 
 	// Initialize cache contents to zero. (Hint 4)
 	for (int i = 0; i < num_of_cache_block_in_a_set; i++)
