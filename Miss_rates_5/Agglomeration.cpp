@@ -52,7 +52,7 @@ int main() {
 	}
 
 	// Save what the program read.
-	out.open("Hex_to_dec.txt");
+	out.open("Hex_to_dec.txt", ios::app); // Truncted the preexisting content of the file.
 
 	if (!out)
 	{
