@@ -192,3 +192,6 @@ int main() {
 
 	return 0;
 }
+
+// Reference:
+// 1. https://stackoverflow.com/a/936702/
