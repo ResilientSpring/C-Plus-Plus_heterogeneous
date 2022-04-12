@@ -6,15 +6,15 @@
 using namespace std;
 
 int main() {
-	int a, b, c, d[5002];
+	int a, b, c, d[5004];
 	int block_size;
-	int location[5002];
+	int location[5004];
 	int cache_size_kilobyte;
 	int cache_size_byte;
 	int num_of_cache_block;
 	int set;
 	int num_of_set;
-	int corresponding_set[5002];
+	int corresponding_set[5004];
 	int num_of_cache_block_in_a_set;
 	int miss_count = 0;
 
@@ -34,7 +34,7 @@ int main() {
 	in >> hex >> c;
 
 	// Read trace.txt (Hint 1)
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		in >> hex >> d[i];
 	}
@@ -46,7 +46,7 @@ int main() {
 	cout << c << "\n";
 
 	// Show what the program read. (Hint 1)
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		cout << d[i] << "\n";
 	}
@@ -62,7 +62,7 @@ int main() {
 	}
 
 	// Output to the file.
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		out << d[i] << "\n";
 	}
@@ -78,7 +78,7 @@ int main() {
 	switch (block_size)
 	{
 	case 8:
-		for (int i = 0; i < 5002; i++)
+		for (int i = 0; i < 5004; i++)
 		{
 			location[i] = d[i] / 8;
 		}
@@ -87,7 +87,7 @@ int main() {
 
 	case 16:
 
-		for (int i = 0; i < 5002; i++)
+		for (int i = 0; i < 5004; i++)
 		{
 			location[i] = d[i] / 16;
 		}
@@ -96,7 +96,7 @@ int main() {
 
 	case 32:
 
-		for (int i = 0; i < 5002; i++)
+		for (int i = 0; i < 5004; i++)
 		{
 			location[i] = d[i] / 32;
 
@@ -106,7 +106,7 @@ int main() {
 
 	case 64:
 
-		for (int i = 0; i < 5002; i++)
+		for (int i = 0; i < 5004; i++)
 		{
 			location[i] = d[i] / 64;
 		}
@@ -118,7 +118,7 @@ int main() {
 	}
 
 	// Show the memory address' position in memory blocks. (Hint 2)
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		cout << location[i] << "\n";
 	}
@@ -134,7 +134,7 @@ int main() {
 	}
 
 	// Output to the file.
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		out << location[i] << "\n";
 	}
@@ -157,13 +157,13 @@ int main() {
 
 	// Calculate which set does the memory block of interest correspond to? (Hint 3)
 
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		corresponding_set[i] = location[i] % num_of_set;
 	}
 
 	// Show the set to which the memory block of interest correspond. (Hint 3)
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		cout << corresponding_set[i] << "\n";
 	}
@@ -179,7 +179,7 @@ int main() {
 	}
 
 	// Output to the file.
-	for (int i = 0; i < 5002; i++)
+	for (int i = 0; i < 5004; i++)
 	{
 		out << corresponding_set[i] << "\n";
 	}
