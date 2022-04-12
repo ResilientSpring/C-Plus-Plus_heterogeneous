@@ -213,7 +213,7 @@ int main() {
 	}
 
 	// Show the number of miss by far.
-	cout << "The number of miss by far: " << miss_count;
+	cout << "The number of miss by far: " << miss_count << "\n";
 
 	// Hint 5
 	for (int i = 0; i < 5004; i++)
@@ -226,7 +226,7 @@ int main() {
 	}
 
 	// Show the number of hit by far.
-	cout << "The number of hit by far: " << hit_count;
+	cout << "The number of hit by far: " << hit_count << "\n";
 
 
 	return 0;
