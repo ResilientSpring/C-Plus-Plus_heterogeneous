@@ -5,6 +5,14 @@
 #include <new>
 using namespace std;
 
+class block {  // Shall be block or blocks?
+	bool valid = true;
+	int tag = -1;
+	int count = 0;
+	int address_in_decimal = -1;
+	int address = -1;
+};
+
 int main() {
 	int d[5004];
 	int block_size;
