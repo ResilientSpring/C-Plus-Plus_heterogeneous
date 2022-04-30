@@ -5,12 +5,13 @@
 #include <new>
 using namespace std;
 
-class block {  // Shall be block or blocks?
-	bool valid = true;
+// A cache block
+class block {
+	bool valid_bit = true;
 	int tag = -1;
 	int count = 0;
-	int address_in_decimal = -1;
 	int address = -1;
+	int address_in_decimal = -1;
 };
 
 int main() {
