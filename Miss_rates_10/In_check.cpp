@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <stdio.h>
 #include <new>
+#include <stdlib.h>
 using namespace std;
 
 // A cache block
