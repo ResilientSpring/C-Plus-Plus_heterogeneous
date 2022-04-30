@@ -6,12 +6,19 @@
 using namespace std;
 
 // A cache block
-class block {
+class Block {
 	bool valid_bit = true;
 	int tag = -1;
+	int index = -1;
 	int count = 0;
 	int address = -1;
 	int address_in_decimal = -1;
+};
+
+class Set {
+	Set(int set_degree) {
+		Block block = 
+	}
 };
 
 int main() {
