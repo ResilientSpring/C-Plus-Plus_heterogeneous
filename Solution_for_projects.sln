@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Miss_rates_6", "Miss_rates_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_in_C", "Class_in_C\Class_in_C.vcxproj", "{80F1D052-7625-4BE8-8427-2CF26D1D0A1A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class_in_C_2", "Class_in_C_2\Class_in_C_2.vcxproj", "{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{80F1D052-7625-4BE8-8427-2CF26D1D0A1A}.Release|x64.Build.0 = Release|x64
 		{80F1D052-7625-4BE8-8427-2CF26D1D0A1A}.Release|x86.ActiveCfg = Release|Win32
 		{80F1D052-7625-4BE8-8427-2CF26D1D0A1A}.Release|x86.Build.0 = Release|Win32
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Debug|x64.ActiveCfg = Debug|x64
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Debug|x64.Build.0 = Debug|x64
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Debug|x86.Build.0 = Debug|Win32
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Release|x64.ActiveCfg = Release|x64
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Release|x64.Build.0 = Release|x64
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Release|x86.ActiveCfg = Release|Win32
+		{CD5AEEB8-2A7E-4704-A998-668F0D7B7697}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
