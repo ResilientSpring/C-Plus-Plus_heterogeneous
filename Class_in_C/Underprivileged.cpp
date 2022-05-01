@@ -32,4 +32,7 @@ int main() {
 	Postgraduate peter;
 	struct student john;
 	postgraduate sherry;
+
+	struct student michalle = { "Kerry", 12345, 3, "Engineering", 3.47 };
+	Postgraduate joseph = { "Lin", 12345, 3, "Engineering", 3.47 };
 }
